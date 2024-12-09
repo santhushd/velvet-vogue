@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvet Vogue</title>
+    <link rel="stylesheet" href="../css/root.css" />
+    <link rel="stylesheet" href="../css/animation.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+    <script
+      src="https://kit.fontawesome.com/01f74f74c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="auth-container">
+      <div class="auth">
+        <div class="auth-body">
+          <div class="image" id="authImage"></div>
+          <div class="content">
+            <div class="data login" id="divAuthLogin">
+              <h3>Login</h3>
+              <p>Enter your credentials to login</p>
+              <form action="">
+                <label for="email_login">Email</label>
+                <input type="email" name="email" id="email_login" />
+                <label for="password_login">Password</label>
+                <input type="password" name="password" id="password_login" />
+                <button>Login</button>
+                <a href="?register">Don't have an account? <u>Register</u></a>
+              </form>
+            </div>
+            <div class="data register" id="divAuthRegister">
+              <h3>Register</h3>
+              <p>Fill these details to register an account</p>
+              <form action="">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" />
+                <label for="address1">Address Line 1</label>
+                <input type="text" />
+                <label for="address2">Address Line 2</label>
+                <input type="text" />
+                <label for="address3">Address Line 3</label>
+                <input type="text" />
+                <label for="city">City</label>
+                <input type="text" />
+                <label for="phone">Phone</label>
+                <input type="text" />
+                <label for="email">Email</label>
+                <input type="email" required />
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+                <button>Register</button>
+                <a href="?login">Already have an account? <u>Login</u></a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../script/dark-mode.js"></script>
+    <script src="../script/auth.js"></script>
+  </body>
+</html>
