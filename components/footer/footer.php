@@ -29,13 +29,13 @@ if (!$isFetchRequest) {
       </div>
       <div class="help">
         <h3>Help</h3>
-        <a href="support.html">Support</a>
+        <a href="support.php">Support</a>
       </div>
       <div class="pages">
         <h3>Pages</h3>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="contact.php">Contact</a>
       </div>
       <div class="contact">
         <h3>Contact</h3>

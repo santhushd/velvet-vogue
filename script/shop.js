@@ -128,7 +128,7 @@ async function LoadAllStocks() {
     let itemHTML = "";
 
     itemHTML += `
-        <div class="item" onclick="location.href='product.html?id=${data.id}'">
+        <div class="item" onclick="location.href='product.php?id=${data.id}'">
     `;
 
     if (data.discount > 0) {

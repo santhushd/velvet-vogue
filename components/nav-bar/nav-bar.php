@@ -13,9 +13,9 @@ if (!$isFetchRequest) {
     <div class="logo" onclick="location.href='';"><i class="fa-brands fa-slack"></i></div>
     <div class="separator"></div>
     <div class="links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.php">Home</a>
+      <a href="about.php">About</a>
+      <a href="contact.php">Contact</a>
     </div>
     <div class="separator"></div>
     <div class="search" id="divSearch">
@@ -46,8 +46,8 @@ if (!$isFetchRequest) {
     </div>
     <div class="separator"></div>
     <div class="user">
-      <button class="login" onclick="location.href='auth.html?login'">Login</button>
-      <button class="register" onclick="location.href='auth.html?register'">Register</button>
+      <button class="login" onclick="location.href='auth.php?login'">Login</button>
+      <button class="register" onclick="location.href='auth.php?register'">Register</button>
       <button class="user" onclick="OpenUserPanel()">
         <i class="fa-regular fa-user"></i>
       </button>

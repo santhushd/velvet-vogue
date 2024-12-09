@@ -10,7 +10,7 @@ if (!$isFetchRequest) {
 <div class="admin-nav-container">
   <div class="admin-nav">
     <div class="left">
-      <div class="logo" onclick="location.href='../pages/index.html';"><i class="fa-brands fa-slack"></i></div>
+      <div class="logo" onclick="location.href='../pages/index.php';"><i class="fa-brands fa-slack"></i></div>
       <div class="separator"></div>
       <h3>Admin</h3>
     </div>

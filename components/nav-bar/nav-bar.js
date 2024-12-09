@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 window.SearchStockFromNav = async function () {
-  console.log("hii");
   const searchName = document.getElementById("inputSearchStockNav").value;
   const stockParams = {
     startRow: 0,
@@ -40,7 +39,7 @@ window.SearchStockFromNav = async function () {
   divNavSearchResults.innerHTML = "";
   data.data.forEach((data) => {
     divNavSearchResults.innerHTML += `
-        <div class="result-card" onclick="location.href='product.html?id=${data.id}'">
+        <div class="result-card" onclick="location.href='product.php?id=${data.id}'">
           <div class="image">
             <img src="../images/product/cover/${data.cover}" alt="">
           </div>

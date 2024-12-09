@@ -21,7 +21,7 @@ async function LoadNewArrivalList() {
   if (!divIndexNewArrivalList) return;
   data.data.forEach((data) => {
     divIndexNewArrivalList.innerHTML += `
-      <div class="item" onclick="location.href='product.html?id=${data.id}'">
+      <div class="item" onclick="location.href='product.php?id=${data.id}'">
         <div class="label new-arrivals">New</div>
         <div class="image">
           <img src="../images/product/cover/${data.cover}" alt="image" />
@@ -42,7 +42,7 @@ async function LoadPromotionList() {
   if (!divIndexPromotionList) return;
   data.data.forEach((data) => {
     divIndexPromotionList.innerHTML += `
-      <div class="item" onclick="location.href='product.html?id=${data.id}'">
+      <div class="item" onclick="location.href='product.php?id=${data.id}'">
         <div class="label discounts">${data.perc_discount}% Off</div>
         <div class="image">
           <img src="../images/product/cover/${data.cover}" alt="image" />
@@ -62,7 +62,7 @@ async function LoadProductList() {
   if (!divIndexProductList) return;
   data.data.forEach((data) => {
     divIndexProductList.innerHTML += `
-      <div class="item" onclick="location.href='product.html?id=${data.id}'">
+      <div class="item" onclick="location.href='product.php?id=${data.id}'">
         <div class="image">
           <img src="../images/product/cover/${data.cover}" alt="image" />
         </div>
@@ -72,7 +72,7 @@ async function LoadProductList() {
     `;
   });
   divIndexProductList.innerHTML += `
-      <div class="load-more" onclick="location.href='shop.html'">
+      <div class="load-more" onclick="location.href='shop.php'">
           <button>Show More</button>
         </div>
     `;

@@ -52,6 +52,10 @@
   background-image: url("../images/auth/image2.jpg");
 }
 
+.auth .auth-body .success-image {
+  background-image: url("../images/auth/image3.jpg");
+}
+
 .auth .auth-body .content {
   display: flex;
   flex-direction: column;

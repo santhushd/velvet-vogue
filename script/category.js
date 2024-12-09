@@ -24,7 +24,7 @@ async function LoadMainCategoryList() {
   if (!divCategoryMainCategoryList) return;
   data.data.forEach((data) => {
     divCategoryMainCategoryList.innerHTML += `
-          <div class="item" onclick="location.href='sub-category.html?sub=${data.id}'">
+          <div class="item" onclick="location.href='sub-category.php?sub=${data.id}'">
             <div class="image">
               <img src="../images/about/image1.jpg" alt="image" />
             </div>
@@ -44,7 +44,7 @@ async function LoadSubCategoryList(id) {
   if (!divCategorySubCategoryList) return;
   data.data.forEach((data) => {
     divCategorySubCategoryList.innerHTML += `
-            <div class="item" onclick="location.href='product-category.html?pro=${data.id}'">
+            <div class="item" onclick="location.href='product-category.php?pro=${data.id}'">
               <div class="image">
                 <img src="../images/about/image1.jpg" alt="image" />
               </div>
@@ -71,7 +71,7 @@ async function LoadProductCategoryList(id) {
   if (!divCategoryProductCategoryList) return;
   data.data.forEach((data) => {
     divCategoryProductCategoryList.innerHTML += `
-            <div class="item" onclick="location.href='shop.html?id=${data.id}'">
+            <div class="item" onclick="location.href='shop.php?id=${data.id}'">
               <div class="image">
                 <img src="../images/about/image1.jpg" alt="image" />
               </div>
